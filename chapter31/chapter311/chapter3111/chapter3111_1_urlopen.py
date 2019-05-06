@@ -6,6 +6,3 @@ response = urllib.request.urlopen('https://www.python.org')
 print(response.status)  # 相应状态码
 pprint(response.getheaders())  # 响应头
 pprint(response.getheader('Server'))  # 响应头中Server的值
-
-# def urlopen(url, data=None, timeout=socket._GLOBAL_DEFAULT_TIMEOUT,
-#             *, cafile=None, capath=None, cadefault=False, context=None):
